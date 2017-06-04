@@ -1,17 +1,18 @@
 body {
-  background: #13756D;
+  background: #8DBAEC;
 }
 
 .todo-wrapper {
-  background: #55B6AE;
-  width: 100%;
+	background: #8DBAEC;
+	width: 100%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1em;
   
-  font-family: megrim, fantasy;
-  background: #1CA89C;
+  font-family: sans-serif;
+  background: #8DBAEC;
   padding: 40px;
   margin: 0;
   color: #333;
@@ -28,7 +29,7 @@ ul {
 }
 
 li {
-  font-family: megrim, fantasy;
+  font-family: sans-serif;
   font-size: 2em;
   padding: 40px;
   
@@ -50,40 +51,20 @@ li input[type="checkbox"] {
 
 .done-true {
   text-decoration: line-through;
-  color: #ddd;
+  color: #828282#ddd;
 }
 
-.add-input {
-  width: 60%;
-  height: 20px;
-  float: left;
-  border: none;
-  padding: 40px 0;
-  font-size: 2em;
-  font-family: megrim, fantasy;
-  text-indent: 55px;
-}
-.add-btn {
-  width: 40%;
-  border: none;
-  background: #29F4E3;
-  padding: 0;
-  height: 100px;
-  h2 {
-   background: #29F4E3;
-   padding: 0;
-   font-size: 4em;
-   font-family: megrim, fantasy;
-   color: #333;
-  }
-}
 
-.clear-btn {
-  width: 100%;
-  border: none;
-  height: 100px;
-  background: #13756D;
-  font-size: 2em;
-  font-family: megrim, fantasy;
-  color: #aaa;
+
+
+
+
+
+
+.todo-wrapper form input {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	margin: auto;
+	position: relative
+	
+
 }
