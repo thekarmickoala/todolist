@@ -6,14 +6,14 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>MHtoDoList</name>
+    <name>MHtodoList</name>
 
     <description>
-        This is a to do list
+        A simple todo list app
     </description>
 
     <author href="http://phonegap.com" email="michael.hogan@digitalskillsacademy.me">
-       Michael Hogan
+        Michael Hogan
     </author>
 
     <!-- Define the main entry-point to the application -->
@@ -52,12 +52,12 @@
 
     <!-- Define app icon and splashscreen for each platform. -->
     <platform name="android">
-        <icon   src="icon.png"               density="ldpi" />
-        <icon   src="icon.png"               density="mdpi" />
-        <icon   src="icon.png"               density="hdpi" />
-        <icon   src="icon.png"              density="xhdpi" />
-        <icon   src="icon.png"             density="xxhdpi" />
-        <icon   src="icon.png"            density="xxxhdpi" />
+        <icon   src="res/icons/android/icon-36-ldpi.png"               density="ldpi" />
+        <icon   src="res/icons/android/icon-48-mdpi.png"               density="mdpi" />
+        <icon   src="res/icons/android/icon-72-hdpi.png"               density="hdpi" />
+        <icon   src="res/icons/android/icon-96-xhdpi.png"              density="xhdpi" />
+        <icon   src="res/icons/android/icon-144-xxhdpi.png"             density="xxhdpi" />
+        <icon   src="res/icons/android/icon-192-xxxhpi.png"            density="xxxhdpi" />
         <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"      density="land-ldpi" />
         <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"      density="land-mdpi" />
         <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"      density="land-hdpi" />
